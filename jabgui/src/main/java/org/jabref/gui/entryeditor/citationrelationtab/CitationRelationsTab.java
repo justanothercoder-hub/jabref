@@ -706,7 +706,6 @@ public class CitationRelationsTab extends EntryEditorTab {
         return writer.toString();
     }
 
-    ///
     private void togglePreviewTooltip(MouseEvent event, Button showPreview, CitationRelationItem entry) {
         if (previewTooltip.isShowing()) {
             previewTooltip.hide();
